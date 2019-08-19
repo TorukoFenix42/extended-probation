@@ -1,0 +1,9 @@
+[path]
+jpg_path = /home/JPEGImages
+xml_path = /home/XMLLabel
+gt_path = /home/Ground_Truth
+predict_path = /home/Predict
+
+[img]
+resize_path = /home/GT
+save_path = /home/GT/Resized
