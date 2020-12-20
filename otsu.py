@@ -2,8 +2,13 @@ import os, glob
 import numpy as np
 import cv2
 
+<<<<<<< HEAD
 path = '/home/dataset/'
 newpath = '/home/new_dataset/'
+=======
+path = '/media/imageDB/LPR/0_NewData/vlp-022-my-r/VLP_dataset/'
+newpath = '/media/imageDB/LPR/LPR_trainset/Hist_Otsu/vlp-022-my-r/VLP_dataset/'
+>>>>>>> 5592f8e... Initial commit
 count = 0
 
 for files in sorted(glob.glob(os.path.join(path, "*.jpg"))):

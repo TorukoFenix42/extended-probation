@@ -8,8 +8,13 @@ parser.read('config.txt')
 jpg_path = parser.get('path', 'jpg_path')
 xml_path = parser.get('path', 'xml_path')
 
+<<<<<<< HEAD
 # jpg_path = "/home/path"
 # xml_path = "/home/path"
+=======
+# jpg_path = "/media/imageDB/LPR/5_testset/WCE/lpd/Day/GT"
+# xml_path = "/media/imageDB/LPR/5_testset/WCE/lpd/Day/GT"
+>>>>>>> 5592f8e... Initial commit
 
 jpg_list = []
 xml_list = []

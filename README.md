@@ -1,4 +1,6 @@
 # Miscellaneous
+<<<<<<< HEAD
+<<<<<<< HEAD
 Miscellaneous tools and scripts for data preprocessing and machine learning. The scripts implemented here are just for personal use, where these scripts are just for my convenience for cases that I have come across, but feel free to use them if needed.
 
 ### Python Scripts (`.py`)
@@ -31,3 +33,40 @@ Miscellaneous tools and scripts for data preprocessing and machine learning. The
 * `config.ini` - Config file. Used with `rename.py`.
 * `config.txt` - Config file. Used with `diffchecker.py`, `iou.py`.
 * `logs.sh` - Shell script to extract docker logs to docker_logs folder with subfolder of current date and time. You may check out my implementation of automatically installing and configuring Docker containers on my Git [here](https://github.com/tiongsikng/docker).
+=======
+=======
+Miscellaneous tools and scripts for data preprocessing and machine learning.
+>>>>>>> fd76edf... Update README.md
+
+### Python Scripts (`.py`)
+* `crop.py` - Cropping images with labels, where JPG and XML files have the same name. The labels will be generated in new XML files accordingly after cropping and generating the new images.
+* `daynight.py` - Separate images by day and night and renaming them via hours on timestamp. Needs the usage of ComparisonSet.zip files to compare the time in the timestamp.
+* `diffchecker.py` - Check anomalies between JPG and XML file. Reads data from path in config.txt file.
+* `groundtruth.py` - Get path and final labels of file name and write them to a text file.
+* `iou.py - Calculate Intersection-over-Union (IoU) for labeled images, ground truth and prediction. Previously generated GT.txt and Predict.txt files have to be deleted beforehand to avoid conflicts.
+* `labelchecker.py` - Check for image which labels are out of bounds/cropped wrongly/not detected, and move XML label files to xml folder.
+* `multiple.py` - Read files from a parent directory and also files in child sub-directories.
+* `otsu.py` - Convert images to otsu and histogram equalize. Also combines both operations using bitwise AND.
+* `rename.py` - Rename batch files for JPG and XML file of the same name, incrementing. Reads data from path in config.ini file.
+* `resize.py` - Resize batch of images from 1080p to 720p. Also resize the bounding boxes for each XML label file.
+* `teststream.py` - Streaming video with RTSP.
+* `writer.py` - Write a text file separated by each line on a list. 
+* `writexml.py` - Write an empty XML label containing boundaries for an image file.
+
+### Python Notebooks (`.ipynb`)
+* `BeautifulSoup.ipynb` - Web scraping from XML in website using Beautiful Soup. Still incomplete.
+* `imgaug_mix.ipynb` - Script to generate augmented dataset.
+
+### JavaScript 
+* `hackerman.js` - Script to auto reconnect for Google Colab, reconnect interval is set in milliseconds.
+
+### C/C++
+* `post.cpp` - HTTP Post with CPP using cURL library. Example taken from [this website](https://qiita.com/ekzemplaro/items/97bc000576a6210a3068).
+
+### Others
+<<<<<<< HEAD
+* logs.sh - Shell script to extract docker logs to docker_logs folder with subfolder of current date and time.
+>>>>>>> 5592f8e... Initial commit
+=======
+* `logs.sh` - Shell script to extract docker logs to docker_logs folder with subfolder of current date and time.
+>>>>>>> fd76edf... Update README.md

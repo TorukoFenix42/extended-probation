@@ -3,8 +3,13 @@ import os, sys
 import xml.etree.ElementTree as ET
 from lxml import etree
 
+<<<<<<< HEAD
 load_path = '/home/load_path/'
 save_path = '/home/save_path/'
+=======
+load_path = '/home/rnd/Downloads/tester/'
+save_path = '/home/rnd/Downloads/tester1/'
+>>>>>>> 5592f8e... Initial commit
 
 def resize():
     for (dirpath, dirnames, filenames) in os.walk(load_path):

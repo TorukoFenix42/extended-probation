@@ -1,6 +1,10 @@
 from os import walk
 
+<<<<<<< HEAD
 dirs = walk('/home/path')
+=======
+dirs = walk('/home/zeke/Downloads')
+>>>>>>> 5592f8e... Initial commit
 for path_from_top, subdirs, files in dirs:
 	for f in files:
 		if f.endswith('jpg'):

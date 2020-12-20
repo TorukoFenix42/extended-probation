@@ -22,8 +22,13 @@ def createfolder(whatever):
         pass
 
 
+<<<<<<< HEAD
 path = '/home/GT_DayNight/'
 comparisonpath = '/home/' + 'ComparisonSet/*.jpg'
+=======
+path = '/media/imageDB/LPR/5_testset/WCE/lpd/wce_0803/GT_DayNight/'
+comparisonpath = '/media/imageDB/LPR/5_testset/WCE/lpd/wce_0803/' + 'ComparisonSet/*.jpg'
+>>>>>>> 5592f8e... Initial commit
 testingpath = path + '*.jpg'
 labelset = glob.glob(comparisonpath)
 testset = glob.glob(testingpath)

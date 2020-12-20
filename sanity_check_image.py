@@ -5,7 +5,15 @@ import shutil
 import cv2
 from skimage import io
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 source_dir_jpeg = "/home/JPEGImages/"
+=======
+source_dir_jpeg = "/home/tunnel/LPR/VOC2007/VOC2007/JPEGImages_2/"
+>>>>>>> 5592f8e... Initial commit
+=======
+source_dir_jpeg = "/home/JPEGImages/"
+>>>>>>> bb92ef5... Update README.md
 
 # change to the source directory
 os.chdir(source_dir_jpeg)

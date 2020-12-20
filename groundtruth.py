@@ -2,7 +2,11 @@ import os
 from os import walk
 
 # change directory to suit your needs
+<<<<<<< HEAD
 path = "/home/path/" 
+=======
+path = "/media/imageDB/LPR/WCE_ANPR_DATA/renamethis/" 
+>>>>>>> 5592f8e... Initial commit
 
 def write(path):
 	files = open("textfile.txt","w")
