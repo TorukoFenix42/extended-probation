@@ -3,12 +3,17 @@ import numpy as np
 import cv2
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 path = '/home/dataset/'
 newpath = '/home/new_dataset/'
 =======
 path = '/media/imageDB/LPR/0_NewData/vlp-022-my-r/VLP_dataset/'
 newpath = '/media/imageDB/LPR/LPR_trainset/Hist_Otsu/vlp-022-my-r/VLP_dataset/'
 >>>>>>> 5592f8e... Initial commit
+=======
+path = '/home/dataset/'
+newpath = '/home/new_dataset/'
+>>>>>>> 34fe968... Update some configs and README
 count = 0
 
 for files in sorted(glob.glob(os.path.join(path, "*.jpg"))):

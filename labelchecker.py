@@ -13,12 +13,17 @@ parser.read('config.txt')
 # jpg_path = parser.get('path', 'jpg_path')
 # xml_path = parser.get('path', 'xml_path')
 <<<<<<< HEAD
+<<<<<<< HEAD
 xml_path = "/home/XML_Label"
 jpg_path = "/home/JPG_Images"
 =======
 xml_path = "/media/imageDB/LPR/0_NewData/lpd-003-my-r/VOCdevkit/VOC2007/Annotations"
 jpg_path = "/media/imageDB/LPR/0_NewData/lpd-003-my-r/VOCdevkit/VOC2007/JPEGImages"
 >>>>>>> 5592f8e... Initial commit
+=======
+xml_path = "/home/XML_Label"
+jpg_path = "/home/JPG_Images"
+>>>>>>> 34fe968... Update some configs and README
 # jpg_list = []
 xml_list = []
 anomalies = []
