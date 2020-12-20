@@ -1,35 +1,9 @@
 [path]
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 34fe968... Update some configs and README
 jpg_path = /home/JPEGImages
 xml_path = /home/XMLLabel
 gt_path = /home/Ground_Truth
 predict_path = /home/Predict
-<<<<<<< HEAD
 
 [img]
 resize_path = /home/GT
 save_path = /home/GT/Resized
-=======
-jpg_path = /media/imageDB/LPR/0_NewData/lpd-006-my-r/VOCdevkit/VOC2007/JPEGImages
-xml_path = /media/imageDB/LPR/0_NewData/lpd-006-my-r/VOCdevkit/VOC2007/Annotations
-gt_path = /home/rnd/Downloads/GT
-predict_path = /home/rnd/Downloads/Predict
-
-[img]
-resize_path = /media/imageDB/LPR/5_testset/WCE/lpd/Night/Night100/GT
-save_path = /media/imageDB/LPR/5_testset/WCE/lpd/Night/Night100/GT/Resize
->>>>>>> 5592f8e... Initial commit
-=======
-
-[img]
-<<<<<<< HEAD
-resize_path = /home/imageDB/LPR/5_testset/WCE/lpd/Night/Night100/GT
-save_path = /home/imageDB/LPR/5_testset/WCE/lpd/Night/Night100/GT/Resize
->>>>>>> 34fe968... Update some configs and README
-=======
-resize_path = /home/GT
-save_path = /home/GT/Resized
->>>>>>> 4efc63b... Update files
