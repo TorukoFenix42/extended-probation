@@ -25,6 +25,11 @@ save_path = /media/imageDB/LPR/5_testset/WCE/lpd/Night/Night100/GT/Resize
 =======
 
 [img]
+<<<<<<< HEAD
 resize_path = /home/imageDB/LPR/5_testset/WCE/lpd/Night/Night100/GT
 save_path = /home/imageDB/LPR/5_testset/WCE/lpd/Night/Night100/GT/Resize
 >>>>>>> 34fe968... Update some configs and README
+=======
+resize_path = /home/GT
+save_path = /home/GT/Resized
+>>>>>>> 4efc63b... Update files
